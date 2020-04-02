@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App2.MainMenuEmployee"
+             Title="OverView">
+    <ContentPage.Content>
+        <StackLayout Margin="20">
+            <Label
+                FontSize="25"
+                Text="Welcome Jacob"
+                VerticalOptions="Start" 
+                HorizontalOptions="CenterAndExpand" 
+                HeightRequest="50"/>
+            <Label Text="Appointment Acceptance Rate: 100%" TextColor="Green"/>
+            <Label Text="Customer Review: 5.0" TextColor="Green"/>
+            <Label Text="Appointments Completed: 5" TextColor="Orange" HeightRequest="100"/>
+            <Label Text="Hourly Rate: $12.75" />
+            <Label Text="Earned This Pay Period: $0"/>
+            <Label Text="Earned YTD: $0" HeightRequest="100"/>
+            <Label Text="Start Date: 3/20/2020" HeightRequest="50"/>
+            
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
