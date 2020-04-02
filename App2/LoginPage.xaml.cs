@@ -26,7 +26,7 @@ namespace App2
             {
                 if (EmailIDEntry.Text == "John" && PasswordEntry.Text == "Doe")
                 {
-                    await Navigation.PushAsync(new TabbedTest("John", "Doe"));
+                    await Navigation.PushAsync(new TabbedTest("Johndfdfsdfsdf", "Doe"));
                 }
                 else if (EmailIDEntry.Text == "Tyler" && PasswordEntry.Text == "Tyler")
                 {
