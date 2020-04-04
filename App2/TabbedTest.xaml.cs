@@ -14,6 +14,7 @@ namespace App2
     {
         public TabbedTest(string username, string password)
         {
+
             InitializeComponent();
             if (username == "John")
             {
@@ -38,7 +39,7 @@ namespace App2
             //this.Children.Add(new MainPage());
             //this.Children.Add(new MainMenuCustomer());
 
-
+            
 
         }
     }
